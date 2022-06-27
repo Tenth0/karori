@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <Button
+            android:id="@+id/meta"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:backgroundTint="#0073e5"
+            android:textColor="#f5f5f5"
+            android:text="基 礎    代 謝" />
+
+        <Button
+            android:id="@+id/bmi"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:backgroundTint="#0073e5"
+            android:textColor="#f5f5f5"
+            android:text="BMI       適正体重" />
+
+
+        <Button
+            android:id="@+id/karo"
+            android:backgroundTint="#0073e5"
+            android:textColor="#f5f5f5"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:text="消　費　カロリー" />
+
+        <Button
+            android:id="@+id/end"
+            android:backgroundTint="#0073e5"
+            android:textColor="#f5f5f5"
+            android:layout_width="113dp"
+            android:layout_height="wrap_content"
+            android:text="戻 　り  　 ま　 す" />
+
+    </LinearLayout>
+    <TextView
+        android:id="@+id/tex"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        />
+    <TextView
+        android:id="@+id/tex2"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+    />
+</LinearLayout>
